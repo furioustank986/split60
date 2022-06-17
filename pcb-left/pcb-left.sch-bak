@@ -1466,4 +1466,53 @@ F 3 "" H 1600 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1600 6300
+Text GLabel 10450 3550 2    50   Input ~ 0
+SD+
+Text GLabel 10450 3650 2    50   Input ~ 0
+SD-
+Text GLabel 10450 2850 2    50   Input ~ 0
+row4
+Text GLabel 10450 2450 2    50   Input ~ 0
+row3
+Text GLabel 10450 2550 2    50   Input ~ 0
+row2
+Text GLabel 10450 2650 2    50   Input ~ 0
+row1
+Text GLabel 10450 2350 2    50   Input ~ 0
+row0
+Text GLabel 10450 5250 2    50   Input ~ 0
+col2
+Text GLabel 10450 5150 2    50   Input ~ 0
+col1
+Text GLabel 10450 3250 2    50   Input ~ 0
+col0
+Text GLabel 10450 3750 2    50   Input ~ 0
+col3
+Text GLabel 10450 3850 2    50   Input ~ 0
+col4
+Text GLabel 10450 4050 2    50   Input ~ 0
+col5
+Text GLabel 10450 3050 2    50   Input ~ 0
+col6
+$Comp
+L power:+5V #PWR0115
+U 1 1 62B44302
+P 1650 5300
+F 0 "#PWR0115" H 1650 5150 50  0001 C CNN
+F 1 "+5V" H 1665 5473 50  0000 C CNN
+F 2 "" H 1650 5300 50  0001 C CNN
+F 3 "" H 1650 5300 50  0001 C CNN
+	1    1650 5300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 5300
+Wire Wire Line
+	1450 6400 1600 6400
+Wire Wire Line
+	1600 6400 1600 6300
+Wire Wire Line
+	3300 6400 3450 6400
+Wire Wire Line
+	3450 6400 3450 6300
+Connection ~ 3450 6300
 $EndSCHEMATC
