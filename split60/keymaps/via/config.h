@@ -28,7 +28,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DYNAMIC_KEYMAP_LAYER_COUNT 2
 /* key matrix size */
 #define MATRIX_ROWS 10
-#define MATRIX_COLS 15
+#define MATRIX_COLS 8
 
 /*
  * Keyboard Matrix Assignments
@@ -41,7 +41,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 #define MATRIX_ROW_PINS { B0, B3, B2, B1, B5 }
-#define MATRIX_COL_PINS { C6, F6, F7, D2, D3, D5, B7 }
+#define MATRIX_COL_PINS { C6, F6, F7, D2, D3, D5, B7, NO_PIN }
 #define MATRIX_ROW_PINS_RIGHT { B4, D7, D6, D4, B3 }
 #define MATRIX_COL_PINS_RIGHT { B7, D3, D2, D5, F7, F6, F5, F4}
 #define SPLIT_HAND_PIN E6
@@ -146,10 +146,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
 
-/* disable these deprecated features by default */
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
-
-/* Bootmagic Lite key configuration */
-#define BOOTMAGIC_LITE_ROW 0
-#define BOOTMAGIC_LITE_COLUMN 0
